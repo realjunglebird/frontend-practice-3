@@ -7,12 +7,16 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="body">
     <header class="header">
-        <img class="header__search" src="assets/icons/Search.png" alt="Иконка поиска">
-        <img class="header__logo" src="logo.png" alt="Логотип">
-        <img class="header__cart" src="assets/icons/Shopping-cart.png" alt="Иконка тележки">
-        <img class="header__profile" src="assets/icons/User--avatar.png" alt="Иконка профиля">
+        <div class="header__icons">
+            <img class="header__search" src="assets/icons/Search.png" alt="Иконка поиска">
+            <img class="header__logo" src="logo.png" alt="Логотип">
+            <div class="header__icons__left">
+                <img class="header__cart" src="assets/icons/Shopping-cart.png" alt="Иконка тележки">
+                <img class="header__profile" src="assets/icons/User--avatar.png" alt="Иконка профиля">
+            </div>
+        </div>
         <nav class="header__nav nav">
             <ul class="nav__list">
                 <li class="nav__item nav__item--active"><a class="nav__link">Цветочные горшки</a></li>
@@ -134,7 +138,6 @@
         <section class="footer__upper_container">
 
         </section>
-        <
         <ul class="footer__list">
             <li><h4>Меню</h4></li>
             <li><a>Новые поступления</a></li>

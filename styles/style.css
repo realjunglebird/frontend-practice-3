@@ -6,11 +6,45 @@
     padding: 0;
 }
 
+.body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    margin: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header__icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.header__search {
+    position: absolute;
+    left: 2rem;
+}
+
+.header__icons__left {
+    position: absolute;
+    right: 2rem;
+}
+
+.nav__list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Montserrat", sans-serif;
 }
 
 .section--card {
@@ -22,10 +56,16 @@
 }
 
 .section--card__text_container {
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 3rem;
     gap: 20px;
+}
+
+.section--card__text {
+    position: absolute;
+    bottom: 3rem;
 }
 
 .section--card__button {
