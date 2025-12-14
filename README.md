@@ -1,7 +1,6 @@
-# Магазин мебели
+# Магазин мебели - практика №3
 
-## Проект
-Этот репозиторий является каркасом для учебного сайта магазина мебели.
+Для реализации стиля выбрана методология БЭМ.
 
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://realjunglebird.github.io/frontend-practice-2/)
+- [Публичная страница на GitHub Pages](https://realjunglebird.github.io/frontend-practice-3/)
